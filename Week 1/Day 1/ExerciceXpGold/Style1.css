@@ -1,0 +1,85 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    }
+    .header>h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: auto;}
+    
+    .header>.btn{
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 10%;
+    padding: 15px;
+    margin-bottom: 5px;
+    background-color: rgb(68, 68, 243);
+    color: white;}
+    
+    .container{
+    background-image: url("sea-water-ocean-horizon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25% 10%}
+    
+    
+    .card>.title-card{
+    color: white;
+    text-align: center;
+    font-size: 80px;;
+    margin: auto;
+    }
+    
+    .card>form{
+    display: flex;
+    align-items: 15%;
+    padding:10px;}
+    
+    .btn2{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    width: auto;
+    margin-left:5px ;
+    border-radius: 5px;}
+    
+    .email{
+    border-radius: 5px;
+    width: 30pc;
+    height: 40px;
+    border: 1px solid black;
+    cursor: pointer;}
+    
+    .card-foot{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    width: 20%;
+    }
+    .card-foot>h2{
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;}
+    .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+    
+    #computer{
+    color: blue;
+    font-size: 80px;}
+    
+    #check-cicle{
+        color: blue;
+        font-size: 80px;
+    }
